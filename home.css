@@ -1,16 +1,48 @@
-.num{
-    border-style: dotted;
-    border-radius: 10px;
+/* HEADER */
+.head {
+  background-color: #A63C29;   /* deep terracotta red */
+  border-radius: 10px;
 }
-.months{
-    border-style: dotted;
-    border-radius: 10px;
+.headtxt {
+  text-align: center;
+  color: #FFD700;              /* gold text */
 }
-.days{
-    border-style: dotted;
-    border-radius: 10px;
+.nav1 {
+  text-align: center;
 }
-.greetings{
-    border-style: dotted;
-    border-radius: 10px;
+.nav1 a {
+  color: #FFD700;              /* gold links */
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: 600;
+}
+.nav1 a:hover {
+  color: #FFFFFF;              /* white hover */
+}
+
+/* FOOTER */
+.foot {
+  background-color: #333333;   /* dark grey footer */
+  text-align: center;
+  padding: 10px;
+}
+.foot a {
+  color: #FFD700;              /* gold links */
+  margin: 0 10px;
+  text-decoration: none;
+}
+.foot a:hover {
+  color: #FFFFFF;              /* white hover */
+}
+
+/* HERO / TAGLINE */
+.tagline {
+  background: url("banner.jpg") no-repeat center center;
+  background-size: cover;
+  border-radius: 10px;
+  color: #FFFFFF;              /* white text */
+  text-align: center;
+  padding: 200px;
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
